@@ -1,0 +1,244 @@
+{
+    "objects": [
+        {
+            "attributes": {
+                "description": "This dashboards shows ASP.NET and SQL Server specific metrics extracted from the azure.vm.windows.guestmetrics namespace", 
+                "hits": 0, 
+                "kibanaSavedObjectMeta": {
+                    "searchSourceJSON": "{\"filter\": [], \"query\": {\"query\": \"\", \"language\": \"kuery\"}}"
+                }, 
+                "optionsJSON": "{\"useMargins\": true, \"hidePanelTitles\": false}", 
+                "panelsJSON": "[{\"gridData\": {\"i\": \"b7b8bcc1-f776-45cf-a149-36665f2de746\", \"h\": 12, \"y\": 0, \"w\": 6, \"x\": 0}, \"title\": \"Filters\", \"embeddableConfig\": {\"title\": \"Filters\"}, \"version\": \"7.4.0\", \"panelRefName\": \"panel_0\", \"panelIndex\": \"b7b8bcc1-f776-45cf-a149-36665f2de746\"}, {\"gridData\": {\"i\": \"bc65dd87-08f6-49f7-b8bf-0d371431ad4d\", \"h\": 12, \"y\": 0, \"w\": 18, \"x\": 6}, \"title\": \"Applications Running\", \"embeddableConfig\": {\"title\": \"Applications Running\"}, \"version\": \"7.4.0\", \"panelRefName\": \"panel_1\", \"panelIndex\": \"bc65dd87-08f6-49f7-b8bf-0d371431ad4d\"}, {\"gridData\": {\"i\": \"6a5abca9-1cfd-45ef-aa88-9b4a72ce2dca\", \"h\": 12, \"y\": 0, \"w\": 24, \"x\": 24}, \"title\": \"SQL Server User Connections\", \"embeddableConfig\": {\"title\": \"SQL Server User Connections\"}, \"version\": \"7.4.0\", \"panelRefName\": \"panel_2\", \"panelIndex\": \"6a5abca9-1cfd-45ef-aa88-9b4a72ce2dca\"}, {\"gridData\": {\"i\": \"5c0158cc-c884-4665-8bbf-7fc34d885d55\", \"h\": 12, \"y\": 12, \"w\": 12, \"x\": 0}, \"title\": \"Application Requests\", \"embeddableConfig\": {\"title\": \"Application Requests\"}, \"version\": \"7.4.0\", \"panelRefName\": \"panel_3\", \"panelIndex\": \"5c0158cc-c884-4665-8bbf-7fc34d885d55\"}, {\"gridData\": {\"i\": \"03c9cff0-b2ec-4dd1-9a2f-db7f441e5e71\", \"h\": 12, \"y\": 12, \"w\": 12, \"x\": 12}, \"title\": \"Application Error Rates\", \"embeddableConfig\": {\"title\": \"Application Error Rates\"}, \"version\": \"7.4.0\", \"panelRefName\": \"panel_4\", \"panelIndex\": \"03c9cff0-b2ec-4dd1-9a2f-db7f441e5e71\"}, {\"gridData\": {\"i\": \"aaa96404-80de-44dc-990c-76bf40d3827b\", \"h\": 12, \"y\": 12, \"w\": 24, \"x\": 24}, \"title\": \"SQL Server Total Server Memory\", \"embeddableConfig\": {\"title\": \"SQL Server Total Server Memory\"}, \"version\": \"7.4.0\", \"panelRefName\": \"panel_5\", \"panelIndex\": \"aaa96404-80de-44dc-990c-76bf40d3827b\"}, {\"gridData\": {\"i\": \"b89c7551-e0e1-4642-ac18-01322ea72db8\", \"h\": 12, \"y\": 24, \"w\": 24, \"x\": 0}, \"title\": \"Application Sessions\", \"embeddableConfig\": {\"title\": \"Application Sessions\"}, \"version\": \"7.4.0\", \"panelRefName\": \"panel_6\", \"panelIndex\": \"b89c7551-e0e1-4642-ac18-01322ea72db8\"}, {\"gridData\": {\"i\": \"43effd82-fc6a-4d11-bd1e-d3b12a34cbce\", \"h\": 12, \"y\": 24, \"w\": 24, \"x\": 24}, \"title\": \"SQL Server Page Reads/Writes\", \"embeddableConfig\": {\"title\": \"SQL Server Page Reads/Writes\"}, \"version\": \"7.4.0\", \"panelRefName\": \"panel_7\", \"panelIndex\": \"43effd82-fc6a-4d11-bd1e-d3b12a34cbce\"}]", 
+                "timeRestore": false, 
+                "title": "[Metricbeat Azure] VM Guest Metrics Overview", 
+                "version": 1
+            }, 
+            "id": "a6f5d430-eaa6-11e9-90ec-112a988266d5", 
+            "migrationVersion": {
+                "dashboard": "7.3.0"
+            }, 
+            "references": [
+                {
+                    "id": "5031b220-eb61-11e9-90ec-112a988266d5", 
+                    "name": "panel_0", 
+                    "type": "visualization"
+                }, 
+                {
+                    "id": "1f5c1cd0-eaa3-11e9-90ec-112a988266d5", 
+                    "name": "panel_1", 
+                    "type": "visualization"
+                }, 
+                {
+                    "id": "0aacc190-eaa8-11e9-90ec-112a988266d5", 
+                    "name": "panel_2", 
+                    "type": "visualization"
+                }, 
+                {
+                    "id": "097bc300-eaa5-11e9-90ec-112a988266d5", 
+                    "name": "panel_3", 
+                    "type": "visualization"
+                }, 
+                {
+                    "id": "6d52a660-eaa4-11e9-90ec-112a988266d5", 
+                    "name": "panel_4", 
+                    "type": "visualization"
+                }, 
+                {
+                    "id": "d7ea4290-eaa8-11e9-90ec-112a988266d5", 
+                    "name": "panel_5", 
+                    "type": "visualization"
+                }, 
+                {
+                    "id": "b9aa9b20-eaa5-11e9-90ec-112a988266d5", 
+                    "name": "panel_6", 
+                    "type": "visualization"
+                }, 
+                {
+                    "id": "787a0a20-eaa8-11e9-90ec-112a988266d5", 
+                    "name": "panel_7", 
+                    "type": "visualization"
+                }
+            ], 
+            "type": "dashboard", 
+            "updated_at": "2019-10-15T11:58:39.685Z", 
+            "version": "WzMyMjQsMV0="
+        }, 
+        {
+            "attributes": {
+                "description": "", 
+                "kibanaSavedObjectMeta": {
+                    "searchSourceJSON": "{\"filter\": [], \"query\": {\"query\": \"\", \"language\": \"kuery\"}}"
+                }, 
+                "title": "VM Filters [Metricbeat Azure]", 
+                "uiStateJSON": "{}", 
+                "version": 1, 
+                "visState": "{\"type\": \"input_control_vis\", \"params\": {\"pinFilters\": false, \"useTimeFilter\": false, \"updateFiltersOnChange\": true, \"controls\": [{\"parent\": \"\", \"indexPatternRefName\": \"control_0_index_pattern\", \"label\": \"Region\", \"fieldName\": \"cloud.region\", \"id\": \"1549397251041\", \"type\": \"list\", \"options\": {\"type\": \"terms\", \"size\": 5, \"multiselect\": true, \"dynamicOptions\": true, \"order\": \"desc\"}}, {\"parent\": \"\", \"indexPatternRefName\": \"control_1_index_pattern\", \"label\": \"Resource Group\", \"fieldName\": \"azure.resource.group\", \"id\": \"1549512142947\", \"type\": \"list\", \"options\": {\"type\": \"terms\", \"size\": 5, \"multiselect\": true, \"dynamicOptions\": true, \"order\": \"desc\"}}, {\"parent\": \"\", \"indexPatternRefName\": \"control_2_index_pattern\", \"label\": \"VM Name\", \"fieldName\": \"azure.resource.name\", \"id\": \"1570774891724\", \"type\": \"list\", \"options\": {\"type\": \"terms\", \"size\": 5, \"multiselect\": true, \"dynamicOptions\": true, \"order\": \"desc\"}}]}, \"aggs\": [], \"title\": \"VM Filters [Metricbeat Azure]\"}"
+            }, 
+            "id": "5031b220-eb61-11e9-90ec-112a988266d5", 
+            "migrationVersion": {
+                "visualization": "7.3.1"
+            }, 
+            "references": [
+                {
+                    "id": "metricbeat-*", 
+                    "name": "control_0_index_pattern", 
+                    "type": "index-pattern"
+                }, 
+                {
+                    "id": "metricbeat-*", 
+                    "name": "control_1_index_pattern", 
+                    "type": "index-pattern"
+                }, 
+                {
+                    "id": "metricbeat-*", 
+                    "name": "control_2_index_pattern", 
+                    "type": "index-pattern"
+                }
+            ], 
+            "type": "visualization", 
+            "updated_at": "2019-10-11T06:35:45.645Z", 
+            "version": "WzE0ODMsMV0="
+        }, 
+        {
+            "attributes": {
+                "description": "", 
+                "kibanaSavedObjectMeta": {
+                    "searchSourceJSON": "{\"filter\": [], \"query\": {\"query\": \"\", \"language\": \"kuery\"}}"
+                }, 
+                "title": "ASP.NET Applications Running [Metricbeat Azure]", 
+                "uiStateJSON": "{}", 
+                "version": 1, 
+                "visState": "{\"type\": \"metrics\", \"params\": {\"default_index_pattern\": \"metricbeat-*\", \"gauge_inner_width\": 10, \"series\": [{\"line_width\": \"1\", \"point_size\": 0, \"color\": \"#3185FC\", \"stacked\": \"none\", \"value_template\": \"{{value}}\", \"label\": \"applications running\", \"metrics\": [{\"field\": \"azure.compute_vm.asp_net_applications_running.avg\", \"type\": \"max\", \"id\": \"d1acb8f2-eaa2-11e9-a229-c9171499dcc6\"}], \"split_mode\": \"everything\", \"chart_type\": \"line\", \"separate_axis\": 0, \"axis_position\": \"right\", \"formatter\": \"number\", \"type\": \"timeseries\", \"id\": \"d1acb8f1-eaa2-11e9-a229-c9171499dcc6\", \"fill\": \"0.2\"}], \"isModelInvalid\": false, \"show_legend\": 1, \"axis_position\": \"left\", \"id\": \"d1acb8f0-eaa2-11e9-a229-c9171499dcc6\", \"bar_color_rules\": [{\"id\": \"03eec7e0-eaa3-11e9-8742-b533e334ee9a\"}], \"gauge_color_rules\": [{\"id\": \"07485320-eaa3-11e9-8742-b533e334ee9a\"}], \"background_color_rules\": [{\"id\": \"04bf3740-eaa3-11e9-8742-b533e334ee9a\"}], \"axis_formatter\": \"number\", \"index_pattern\": \"metricbeat-*\", \"type\": \"timeseries\", \"default_timefield\": \"@timestamp\", \"axis_min\": 0, \"show_grid\": 1, \"axis_scale\": \"normal\", \"gauge_width\": 10, \"time_field\": \"@timestamp\", \"interval\": \">=5m\", \"filter\": {\"query\": \"azure.resource.type : \\\"Microsoft.Compute/virtualMachines\\\" \", \"language\": \"kuery\"}, \"gauge_style\": \"half\"}, \"aggs\": [], \"title\": \"ASP.NET Applications Running [Metricbeat Azure]\"}"
+            }, 
+            "id": "1f5c1cd0-eaa3-11e9-90ec-112a988266d5", 
+            "migrationVersion": {
+                "visualization": "7.3.1"
+            }, 
+            "references": [], 
+            "type": "visualization", 
+            "updated_at": "2019-10-15T11:56:33.857Z", 
+            "version": "WzMyMTEsMV0="
+        }, 
+        {
+            "attributes": {
+                "description": "", 
+                "kibanaSavedObjectMeta": {
+                    "searchSourceJSON": "{\"filter\": [], \"query\": {\"query\": \"\", \"language\": \"kuery\"}}"
+                }, 
+                "title": "SQL Server User Connections [Metricbeat Azure]", 
+                "uiStateJSON": "{}", 
+                "version": 1, 
+                "visState": "{\"type\": \"metrics\", \"params\": {\"default_index_pattern\": \"metricbeat-*\", \"index_pattern\": \"metricbeat-*\", \"default_timefield\": \"@timestamp\", \"series\": [{\"line_width\": 2, \"point_size\": 0, \"color\": \"#3185FC\", \"stacked\": \"none\", \"value_template\": \"{{value}}\", \"label\": \"connections\", \"metrics\": [{\"field\": \"azure.compute_vm.sqlserver_general_statistics_user_connections.avg\", \"type\": \"avg\", \"id\": \"da495db2-eaa7-11e9-a88b-4b683ca3087b\"}], \"split_mode\": \"everything\", \"chart_type\": \"line\", \"separate_axis\": 0, \"axis_position\": \"right\", \"formatter\": \"number\", \"id\": \"da495db1-eaa7-11e9-a88b-4b683ca3087b\", \"fill\": 0}], \"axis_formatter\": \"number\", \"interval\": \">=5m\", \"show_legend\": 1, \"isModelInvalid\": false, \"id\": \"da495db0-eaa7-11e9-a88b-4b683ca3087b\", \"filter\": {\"query\": \"azure.resource.type :\\\"Microsoft.Compute/virtualMachines\\\" \", \"language\": \"kuery\"}, \"time_field\": \"@timestamp\", \"axis_min\": 0, \"show_grid\": 1, \"axis_scale\": \"normal\", \"type\": \"timeseries\", \"axis_position\": \"left\"}, \"aggs\": [], \"title\": \"SQL Server User Connections [Metricbeat Azure]\"}"
+            }, 
+            "id": "0aacc190-eaa8-11e9-90ec-112a988266d5", 
+            "migrationVersion": {
+                "visualization": "7.3.1"
+            }, 
+            "references": [], 
+            "type": "visualization", 
+            "updated_at": "2019-10-15T11:56:54.774Z", 
+            "version": "WzMyMTMsMV0="
+        }, 
+        {
+            "attributes": {
+                "description": "", 
+                "kibanaSavedObjectMeta": {
+                    "searchSourceJSON": "{\"filter\": [], \"query\": {\"query\": \"\", \"language\": \"kuery\"}}"
+                }, 
+                "title": "ASP.NET Application Requests [Metricbeat Azure]", 
+                "uiStateJSON": "{}", 
+                "version": 1, 
+                "visState": "{\"type\": \"metrics\", \"params\": {\"default_index_pattern\": \"metricbeat-*\", \"index_pattern\": \"metricbeat-*\", \"default_timefield\": \"@timestamp\", \"series\": [{\"line_width\": 2, \"point_size\": 0, \"color\": \"rgba(254,146,0,1)\", \"stacked\": \"none\", \"value_template\": \"{{value}}\", \"label\": \"timed out\", \"metrics\": [{\"field\": \"azure.compute_vm.asp_net_applications_requests_timed_out.avg\", \"type\": \"avg\", \"id\": \"be74e9e2-eaa4-11e9-8923-850d87d8e766\"}], \"split_mode\": \"everything\", \"chart_type\": \"line\", \"separate_axis\": 0, \"axis_position\": \"right\", \"formatter\": \"number\", \"id\": \"be74e9e1-eaa4-11e9-8923-850d87d8e766\", \"fill\": 0}, {\"line_width\": 2, \"point_size\": 0, \"color\": \"#DB1374\", \"stacked\": \"none\", \"value_template\": \"{{value}}\", \"label\": \"failed\", \"metrics\": [{\"field\": \"azure.compute_vm.asp_net_applications_requests_failed.avg\", \"type\": \"avg\", \"id\": \"be74e9e4-eaa4-11e9-8923-850d87d8e766\"}], \"split_mode\": \"everything\", \"chart_type\": \"line\", \"separate_axis\": 0, \"axis_position\": \"right\", \"formatter\": \"number\", \"id\": \"be74e9e3-eaa4-11e9-8923-850d87d8e766\", \"fill\": 0}, {\"line_width\": 2, \"point_size\": 0, \"color\": \"#00B3A4\", \"stacked\": \"none\", \"value_template\": \"{{value}}\", \"label\": \"succeeded\", \"metrics\": [{\"field\": \"azure.compute_vm.asp_net_applications_requests_succeeded.avg\", \"type\": \"avg\", \"id\": \"be7510f1-eaa4-11e9-8923-850d87d8e766\"}], \"split_mode\": \"everything\", \"chart_type\": \"line\", \"separate_axis\": 0, \"axis_position\": \"right\", \"formatter\": \"number\", \"id\": \"be7510f0-eaa4-11e9-8923-850d87d8e766\", \"fill\": 0}, {\"line_width\": 2, \"point_size\": 0, \"color\": \"#490092\", \"stacked\": \"none\", \"value_template\": \"{{value}}\", \"label\": \"total\", \"metrics\": [{\"field\": \"azure.compute_vm.asp_net_applications_requests_total.avg\", \"type\": \"avg\", \"id\": \"be7510f3-eaa4-11e9-8923-850d87d8e766\"}], \"split_mode\": \"everything\", \"chart_type\": \"line\", \"separate_axis\": 0, \"axis_position\": \"right\", \"formatter\": \"number\", \"id\": \"be7510f2-eaa4-11e9-8923-850d87d8e766\", \"fill\": 0}], \"axis_formatter\": \"number\", \"interval\": \">=5m\", \"show_legend\": 1, \"isModelInvalid\": false, \"id\": \"be74e9e0-eaa4-11e9-8923-850d87d8e766\", \"filter\": {\"query\": \"azure.resource.type : \\\"Microsoft.Compute/virtualMachines\\\" \", \"language\": \"kuery\"}, \"time_field\": \"@timestamp\", \"axis_min\": 0, \"show_grid\": 1, \"axis_scale\": \"normal\", \"type\": \"timeseries\", \"axis_position\": \"left\"}, \"aggs\": [], \"title\": \"ASP.NET Application Requests [Metricbeat Azure]\"}"
+            }, 
+            "id": "097bc300-eaa5-11e9-90ec-112a988266d5", 
+            "migrationVersion": {
+                "visualization": "7.3.1"
+            }, 
+            "references": [], 
+            "type": "visualization", 
+            "updated_at": "2019-10-15T11:57:11.237Z", 
+            "version": "WzMyMTUsMV0="
+        }, 
+        {
+            "attributes": {
+                "description": "", 
+                "kibanaSavedObjectMeta": {
+                    "searchSourceJSON": "{\"filter\": [], \"query\": {\"query\": \"\", \"language\": \"kuery\"}}"
+                }, 
+                "title": "ASP.NET Application Error Rates [Metricbeat Azure]", 
+                "uiStateJSON": "{}", 
+                "version": 1, 
+                "visState": "{\"type\": \"metrics\", \"params\": {\"default_index_pattern\": \"metricbeat-*\", \"index_pattern\": \"metricbeat-*\", \"default_timefield\": \"@timestamp\", \"series\": [{\"line_width\": \"1\", \"metrics\": [{\"field\": \"azure.compute_vm.asp_net_applications_errors_total.avg\", \"type\": \"avg\", \"id\": \"29578b11-eaa4-11e9-a2d3-e7a00bbd3c18\"}], \"color\": \"rgba(244,78,59,1)\", \"stacked\": \"none\", \"value_template\": \"{{value}}\", \"label\": \"errors\", \"filter\": {\"query\": \"\", \"language\": \"kuery\"}, \"separate_axis\": 0, \"split_mode\": \"everything\", \"chart_type\": \"line\", \"point_size\": 0, \"axis_position\": \"right\", \"formatter\": \"number\", \"id\": \"29578b10-eaa4-11e9-a2d3-e7a00bbd3c18\", \"fill\": \"0.2\"}], \"axis_formatter\": \"number\", \"interval\": \">=5m\", \"show_legend\": 1, \"isModelInvalid\": false, \"id\": \"29576400-eaa4-11e9-a2d3-e7a00bbd3c18\", \"filter\": {\"query\": \"azure.resource.type : \\\"Microsoft.Compute/virtualMachines\\\" \", \"language\": \"kuery\"}, \"time_field\": \"@timestamp\", \"axis_min\": 0, \"show_grid\": 1, \"axis_scale\": \"normal\", \"type\": \"timeseries\", \"axis_position\": \"left\"}, \"aggs\": [], \"title\": \"ASP.NET Application Error Rates [Metricbeat Azure]\"}"
+            }, 
+            "id": "6d52a660-eaa4-11e9-90ec-112a988266d5", 
+            "migrationVersion": {
+                "visualization": "7.3.1"
+            }, 
+            "references": [], 
+            "type": "visualization", 
+            "updated_at": "2019-10-15T11:57:29.302Z", 
+            "version": "WzMyMTcsMV0="
+        }, 
+        {
+            "attributes": {
+                "description": "", 
+                "kibanaSavedObjectMeta": {
+                    "searchSourceJSON": "{\"filter\": [], \"query\": {\"query\": \"\", \"language\": \"kuery\"}}"
+                }, 
+                "title": "SQL Server Total Server Memory [Metricbeat Azure]", 
+                "uiStateJSON": "{}", 
+                "version": 1, 
+                "visState": "{\"type\": \"metrics\", \"params\": {\"default_index_pattern\": \"metricbeat-*\", \"index_pattern\": \"metricbeat-*\", \"default_timefield\": \"@timestamp\", \"series\": [{\"line_width\": 2, \"point_size\": 0, \"color\": \"#3185FC\", \"stacked\": \"none\", \"value_template\": \"{{value}}\", \"label\": \"memory\", \"metrics\": [{\"field\": \"azure.compute_vm.sqlserver_memory_manager_total_server_memory.avg\", \"type\": \"avg\", \"id\": \"94af6a02-eaa8-11e9-9269-d92e2d3f77fd\"}], \"split_mode\": \"everything\", \"chart_type\": \"line\", \"separate_axis\": 0, \"axis_position\": \"right\", \"formatter\": \"bytes\", \"id\": \"94af6a01-eaa8-11e9-9269-d92e2d3f77fd\", \"fill\": 0}], \"axis_formatter\": \"number\", \"interval\": \">=5m\", \"show_legend\": 1, \"isModelInvalid\": false, \"id\": \"94af6a00-eaa8-11e9-9269-d92e2d3f77fd\", \"filter\": {\"query\": \"azure.resource.type:\\\"Microsoft.Compute/virtualMachines\\\" \", \"language\": \"kuery\"}, \"time_field\": \"@timestamp\", \"axis_min\": 0, \"show_grid\": 1, \"axis_scale\": \"normal\", \"type\": \"timeseries\", \"axis_position\": \"left\"}, \"aggs\": [], \"title\": \"SQL Server Total Server Memory [Metricbeat Azure]\"}"
+            }, 
+            "id": "d7ea4290-eaa8-11e9-90ec-112a988266d5", 
+            "migrationVersion": {
+                "visualization": "7.3.1"
+            }, 
+            "references": [], 
+            "type": "visualization", 
+            "updated_at": "2019-10-15T11:57:45.878Z", 
+            "version": "WzMyMTksMV0="
+        }, 
+        {
+            "attributes": {
+                "description": "", 
+                "kibanaSavedObjectMeta": {
+                    "searchSourceJSON": "{\"filter\": [], \"query\": {\"query\": \"\", \"language\": \"kuery\"}}"
+                }, 
+                "title": "ASP.NET Application Sessions [Metricbeat Azure]", 
+                "uiStateJSON": "{}", 
+                "version": 1, 
+                "visState": "{\"type\": \"metrics\", \"params\": {\"default_index_pattern\": \"metricbeat-*\", \"index_pattern\": \"metricbeat-*\", \"default_timefield\": \"@timestamp\", \"series\": [{\"line_width\": 2, \"point_size\": 0, \"color\": \"#3185FC\", \"stacked\": \"none\", \"value_template\": \"{{value}}\", \"label\": \"active\", \"metrics\": [{\"field\": \"azure.compute_vm.asp_net_applications_sessions_active.avg\", \"type\": \"avg\", \"id\": \"6d6575a2-eaa5-11e9-84ad-5919a47b8f34\"}], \"split_mode\": \"everything\", \"chart_type\": \"line\", \"separate_axis\": 0, \"axis_position\": \"right\", \"formatter\": \"number\", \"id\": \"6d6575a1-eaa5-11e9-84ad-5919a47b8f34\", \"fill\": 0}, {\"line_width\": 2, \"point_size\": 0, \"color\": \"#DB1374\", \"stacked\": \"none\", \"value_template\": \"{{value}}\", \"label\": \"timed out\", \"metrics\": [{\"field\": \"azure.compute_vm.asp_net_applications_sessions_timed_out.avg\", \"type\": \"avg\", \"id\": \"6d6575a4-eaa5-11e9-84ad-5919a47b8f34\"}], \"split_mode\": \"everything\", \"chart_type\": \"line\", \"separate_axis\": 0, \"axis_position\": \"right\", \"formatter\": \"number\", \"id\": \"6d6575a3-eaa5-11e9-84ad-5919a47b8f34\", \"fill\": 0}, {\"line_width\": 2, \"point_size\": 0, \"color\": \"#00B3A4\", \"stacked\": \"none\", \"value_template\": \"{{value}}\", \"label\": \"abandoned\", \"metrics\": [{\"field\": \"azure.compute_vm.asp_net_applications_sessions_abandoned.avg\", \"type\": \"avg\", \"id\": \"6d6575a6-eaa5-11e9-84ad-5919a47b8f34\"}], \"split_mode\": \"everything\", \"chart_type\": \"line\", \"separate_axis\": 0, \"axis_position\": \"right\", \"formatter\": \"number\", \"id\": \"6d6575a5-eaa5-11e9-84ad-5919a47b8f34\", \"fill\": 0}, {\"line_width\": 2, \"point_size\": 0, \"color\": \"#490092\", \"stacked\": \"none\", \"value_template\": \"{{value}}\", \"label\": \"total\", \"metrics\": [{\"field\": \"azure.compute_vm.asp_net_applications_sessions_total.avg\", \"type\": \"avg\", \"id\": \"6d6575a8-eaa5-11e9-84ad-5919a47b8f34\"}], \"split_mode\": \"everything\", \"chart_type\": \"line\", \"separate_axis\": 0, \"axis_position\": \"right\", \"formatter\": \"number\", \"id\": \"6d6575a7-eaa5-11e9-84ad-5919a47b8f34\", \"fill\": 0}], \"axis_formatter\": \"number\", \"interval\": \">=5m\", \"show_legend\": 1, \"isModelInvalid\": false, \"id\": \"6d6575a0-eaa5-11e9-84ad-5919a47b8f34\", \"filter\": {\"query\": \"azure.resource.type : \\\"Microsoft.Compute/virtualMachines\\\" \", \"language\": \"kuery\"}, \"time_field\": \"@timestamp\", \"axis_min\": 0, \"show_grid\": 1, \"axis_scale\": \"normal\", \"type\": \"timeseries\", \"axis_position\": \"left\"}, \"aggs\": [], \"title\": \"ASP.NET Application Sessions [Metricbeat Azure]\"}"
+            }, 
+            "id": "b9aa9b20-eaa5-11e9-90ec-112a988266d5", 
+            "migrationVersion": {
+                "visualization": "7.3.1"
+            }, 
+            "references": [], 
+            "type": "visualization", 
+            "updated_at": "2019-10-15T11:58:04.891Z", 
+            "version": "WzMyMjEsMV0="
+        }, 
+        {
+            "attributes": {
+                "description": "", 
+                "kibanaSavedObjectMeta": {
+                    "searchSourceJSON": "{\"filter\": [], \"query\": {\"query\": \"\", \"language\": \"kuery\"}}"
+                }, 
+                "title": "SQL Server Page Reads/Writes [Metricbeat Azure]", 
+                "uiStateJSON": "{}", 
+                "version": 1, 
+                "visState": "{\"type\": \"metrics\", \"params\": {\"default_index_pattern\": \"metricbeat-*\", \"index_pattern\": \"metricbeat-*\", \"default_timefield\": \"@timestamp\", \"series\": [{\"line_width\": 2, \"point_size\": 0, \"color\": \"rgba(252,196,0,1)\", \"stacked\": \"none\", \"value_template\": \"{{value}}\", \"label\": \"Page Reads/s\", \"metrics\": [{\"field\": \"azure.compute_vm.sqlserver_buffer_manager_page_reads_per_sec.avg\", \"type\": \"avg\", \"id\": \"35459a32-eaa8-11e9-a379-c33a712c0373\"}], \"split_mode\": \"everything\", \"chart_type\": \"line\", \"separate_axis\": 0, \"axis_position\": \"right\", \"formatter\": \"number\", \"id\": \"35459a31-eaa8-11e9-a379-c33a712c0373\", \"fill\": 0}, {\"line_width\": 2, \"point_size\": 0, \"color\": \"rgba(176,188,0,1)\", \"stacked\": \"none\", \"value_template\": \"{{value}}\", \"label\": \"Page Writes/s\", \"metrics\": [{\"field\": \"azure.compute_vm.sqlserver_buffer_manager_page_writes_per_sec.avg\", \"type\": \"avg\", \"id\": \"35459a34-eaa8-11e9-a379-c33a712c0373\"}], \"split_mode\": \"everything\", \"chart_type\": \"line\", \"separate_axis\": 0, \"axis_position\": \"right\", \"formatter\": \"number\", \"id\": \"35459a33-eaa8-11e9-a379-c33a712c0373\", \"fill\": 0}], \"axis_formatter\": \"number\", \"interval\": \">=5m\", \"show_legend\": 1, \"isModelInvalid\": false, \"id\": \"35459a30-eaa8-11e9-a379-c33a712c0373\", \"filter\": {\"query\": \"azure.resource.type : \\\"Microsoft.Compute/virtualMachines\\\" \", \"language\": \"kuery\"}, \"time_field\": \"@timestamp\", \"axis_min\": 0, \"show_grid\": 1, \"axis_scale\": \"normal\", \"type\": \"timeseries\", \"axis_position\": \"left\"}, \"aggs\": [], \"title\": \"SQL Server Page Reads/Writes [Metricbeat Azure]\"}"
+            }, 
+            "id": "787a0a20-eaa8-11e9-90ec-112a988266d5", 
+            "migrationVersion": {
+                "visualization": "7.3.1"
+            }, 
+            "references": [], 
+            "type": "visualization", 
+            "updated_at": "2019-10-15T11:58:24.951Z", 
+            "version": "WzMyMjMsMV0="
+        }
+    ], 
+    "version": "7.4.0"
+}

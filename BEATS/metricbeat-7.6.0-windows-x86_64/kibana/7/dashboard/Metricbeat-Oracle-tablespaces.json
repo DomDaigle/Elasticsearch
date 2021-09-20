@@ -1,0 +1,153 @@
+{
+    "objects": [
+        {
+            "attributes": {
+                "description": "Overview of Oracle Tablespaces", 
+                "hits": 0, 
+                "kibanaSavedObjectMeta": {
+                    "searchSourceJSON": "{\"filter\": [], \"query\": {\"query\": \"\", \"language\": \"kuery\"}}"
+                }, 
+                "optionsJSON": "{\"useMargins\": true, \"hidePanelTitles\": false}", 
+                "panelsJSON": "[{\"gridData\": {\"i\": \"1\", \"h\": 15, \"y\": 0, \"w\": 19, \"x\": 0}, \"title\": \"Avg data file size by filename\", \"embeddableConfig\": {}, \"version\": \"8.0.0-SNAPSHOT\", \"panelRefName\": \"panel_0\", \"panelIndex\": \"1\"}, {\"gridData\": {\"i\": \"2\", \"h\": 15, \"y\": 15, \"w\": 24, \"x\": 0}, \"title\": \"Tablespace Total Size\", \"embeddableConfig\": {}, \"version\": \"8.0.0-SNAPSHOT\", \"panelRefName\": \"panel_1\", \"panelIndex\": \"2\"}, {\"gridData\": {\"i\": \"3\", \"h\": 15, \"y\": 0, \"w\": 19, \"x\": 19}, \"title\": \"Maximum data file size\", \"embeddableConfig\": {}, \"version\": \"8.0.0-SNAPSHOT\", \"panelRefName\": \"panel_2\", \"panelIndex\": \"3\"}, {\"gridData\": {\"i\": \"4\", \"h\": 15, \"y\": 0, \"w\": 10, \"x\": 38}, \"title\": \"Ratio of used space in Tablespaces\", \"embeddableConfig\": {}, \"version\": \"8.0.0-SNAPSHOT\", \"panelRefName\": \"panel_3\", \"panelIndex\": \"4\"}, {\"gridData\": {\"i\": \"5\", \"h\": 15, \"y\": 15, \"w\": 24, \"x\": 24}, \"title\": \"Ratio of used space in data files\", \"embeddableConfig\": {}, \"version\": \"8.0.0-SNAPSHOT\", \"panelRefName\": \"panel_4\", \"panelIndex\": \"5\"}]", 
+                "timeRestore": false, 
+                "title": "[Metricbeat Oracle] Tablespaces", 
+                "version": 1
+            }, 
+            "id": "862e2c20-9bf0-11e9-a61b-f742ed613c57", 
+            "migrationVersion": {
+                "dashboard": "7.0.0"
+            }, 
+            "references": [
+                {
+                    "id": "c92efe60-9bef-11e9-a61b-f742ed613c57", 
+                    "name": "panel_0", 
+                    "type": "visualization"
+                }, 
+                {
+                    "id": "05acae50-9bf0-11e9-a61b-f742ed613c57", 
+                    "name": "panel_1", 
+                    "type": "visualization"
+                }, 
+                {
+                    "id": "4c051a90-9bf0-11e9-a61b-f742ed613c57", 
+                    "name": "panel_2", 
+                    "type": "visualization"
+                }, 
+                {
+                    "id": "981779d0-9bfc-11e9-a61b-f742ed613c57", 
+                    "name": "panel_3", 
+                    "type": "visualization"
+                }, 
+                {
+                    "id": "072de430-9bfd-11e9-a61b-f742ed613c57", 
+                    "name": "panel_4", 
+                    "type": "visualization"
+                }
+            ], 
+            "type": "dashboard", 
+            "updated_at": "2019-07-01T13:32:15.355Z", 
+            "version": "Wzk0MywxNF0="
+        }, 
+        {
+            "attributes": {
+                "description": "", 
+                "kibanaSavedObjectMeta": {
+                    "searchSourceJSON": "{\"filter\": [], \"query\": {\"query\": \"\", \"language\": \"kuery\"}}"
+                }, 
+                "title": "Avg data file size by filename [Metricbeat Oracle]", 
+                "uiStateJSON": "{}", 
+                "version": 1, 
+                "visState": "{\"type\": \"metrics\", \"params\": {\"default_index_pattern\": \"metricbeat-*\", \"index_pattern\": \"\", \"time_field\": \"@timestamp\", \"series\": [{\"line_width\": 1, \"terms_field\": \"oracle.tablespace.data_file.name\", \"point_size\": 1, \"color\": \"#68BC00\", \"stacked\": \"stacked\", \"label\": \"Data file size by filename\", \"metrics\": [{\"order\": \"desc\", \"field\": \"oracle.tablespace.data_file.size.bytes\", \"agg_with\": \"noop\", \"type\": \"avg\", \"id\": \"61ca57f2-469d-11e7-af02-69e470af7417\", \"size\": 1}], \"split_mode\": \"terms\", \"chart_type\": \"line\", \"terms_order_by\": \"61ca57f2-469d-11e7-af02-69e470af7417\", \"separate_axis\": 0, \"axis_position\": \"right\", \"formatter\": \"bytes\", \"id\": \"61ca57f1-469d-11e7-af02-69e470af7417\", \"fill\": 0.5}], \"axis_formatter\": \"number\", \"interval\": \"auto\", \"id\": \"61ca57f0-469d-11e7-af02-69e470af7417\", \"show_legend\": 1, \"show_grid\": 1, \"legend_position\": \"bottom\", \"axis_scale\": \"normal\", \"type\": \"timeseries\", \"axis_position\": \"left\"}, \"aggs\": [], \"title\": \"Avg data file size by filename [Metricbeat Oracle]\"}"
+            }, 
+            "id": "c92efe60-9bef-11e9-a61b-f742ed613c57", 
+            "migrationVersion": {
+                "visualization": "7.2.0"
+            }, 
+            "references": [], 
+            "type": "visualization", 
+            "updated_at": "2019-07-01T12:24:40.028Z", 
+            "version": "WzkzOCwxNF0="
+        }, 
+        {
+            "attributes": {
+                "description": "", 
+                "kibanaSavedObjectMeta": {
+                    "searchSourceJSON": "{\"filter\": [], \"query\": {\"query\": \"\", \"language\": \"kuery\"}}"
+                }, 
+                "title": "Tablespace Total Size [Metricbeat Oracle]", 
+                "uiStateJSON": "{}", 
+                "version": 1, 
+                "visState": "{\"type\": \"metrics\", \"params\": {\"default_index_pattern\": \"metricbeat-*\", \"index_pattern\": \"\", \"time_field\": \"@timestamp\", \"series\": [{\"line_width\": 1, \"terms_field\": \"oracle.tablespace.name\", \"point_size\": 1, \"color\": \"rgba(115,216,255,1)\", \"stacked\": \"stacked\", \"label\": \"Tablespace total size\", \"metrics\": [{\"field\": \"oracle.tablespace.space.total.bytes\", \"type\": \"avg\", \"id\": \"61ca57f2-469d-11e7-af02-69e470af7417\"}], \"split_mode\": \"terms\", \"chart_type\": \"line\", \"terms_order_by\": \"61ca57f2-469d-11e7-af02-69e470af7417\", \"separate_axis\": 0, \"axis_position\": \"right\", \"formatter\": \"bytes\", \"id\": \"61ca57f1-469d-11e7-af02-69e470af7417\", \"fill\": 0.5}], \"axis_formatter\": \"number\", \"interval\": \"auto\", \"id\": \"61ca57f0-469d-11e7-af02-69e470af7417\", \"show_legend\": 1, \"show_grid\": 1, \"axis_scale\": \"normal\", \"type\": \"timeseries\", \"axis_position\": \"left\"}, \"aggs\": [], \"title\": \"Tablespace Total Size [Metricbeat Oracle]\"}"
+            }, 
+            "id": "05acae50-9bf0-11e9-a61b-f742ed613c57", 
+            "migrationVersion": {
+                "visualization": "7.2.0"
+            }, 
+            "references": [], 
+            "type": "visualization", 
+            "updated_at": "2019-07-01T11:09:27.312Z", 
+            "version": "WzkzNCwxNF0="
+        }, 
+        {
+            "attributes": {
+                "description": "", 
+                "kibanaSavedObjectMeta": {
+                    "searchSourceJSON": "{\"filter\": [], \"query\": {\"query\": \"\", \"language\": \"kuery\"}}"
+                }, 
+                "title": "Maximum data file size [Metricbeat Oracle]", 
+                "uiStateJSON": "{}", 
+                "version": 1, 
+                "visState": "{\"type\": \"metrics\", \"params\": {\"default_index_pattern\": \"metricbeat-*\", \"index_pattern\": \"\", \"time_field\": \"@timestamp\", \"series\": [{\"line_width\": 1, \"terms_field\": \"oracle.tablespace.data_file.name\", \"point_size\": 1, \"color\": \"rgba(254,146,0,1)\", \"stacked\": \"stacked\", \"label\": \"Maximum data file size\", \"metrics\": [{\"field\": \"oracle.tablespace.data_file.size.max.bytes\", \"type\": \"avg\", \"id\": \"61ca57f2-469d-11e7-af02-69e470af7417\"}], \"split_mode\": \"terms\", \"chart_type\": \"line\", \"terms_order_by\": \"61ca57f2-469d-11e7-af02-69e470af7417\", \"separate_axis\": 0, \"axis_position\": \"right\", \"formatter\": \"bytes\", \"id\": \"61ca57f1-469d-11e7-af02-69e470af7417\", \"fill\": 0.5}], \"axis_formatter\": \"number\", \"interval\": \"auto\", \"id\": \"61ca57f0-469d-11e7-af02-69e470af7417\", \"show_legend\": 1, \"show_grid\": 1, \"legend_position\": \"bottom\", \"axis_scale\": \"normal\", \"type\": \"timeseries\", \"axis_position\": \"left\"}, \"aggs\": [], \"title\": \"Maximum data file size [Metricbeat Oracle]\"}"
+            }, 
+            "id": "4c051a90-9bf0-11e9-a61b-f742ed613c57", 
+            "migrationVersion": {
+                "visualization": "7.2.0"
+            }, 
+            "references": [], 
+            "type": "visualization", 
+            "updated_at": "2019-07-01T11:09:16.058Z", 
+            "version": "WzkzMywxNF0="
+        }, 
+        {
+            "attributes": {
+                "description": "", 
+                "kibanaSavedObjectMeta": {
+                    "searchSourceJSON": "{\"filter\": [], \"query\": {\"query\": \"\", \"language\": \"kuery\"}}"
+                }, 
+                "title": "Ratio of used space in Tablespaces [Metricbeat Oracle]", 
+                "uiStateJSON": "{}", 
+                "version": 1, 
+                "visState": "{\"type\": \"metrics\", \"params\": {\"bar_color_rules\": [{\"id\": \"70de46f0-9bfc-11e9-baad-815beb8da1b5\"}], \"default_index_pattern\": \"metricbeat-*\", \"index_pattern\": \"\", \"time_field\": \"@timestamp\", \"series\": [{\"line_width\": 1, \"terms_field\": \"oracle.tablespace.name\", \"point_size\": 1, \"color\": \"#68BC00\", \"stacked\": \"none\", \"label\": \"\", \"metrics\": [{\"field\": \"oracle.tablespace.space.used.bytes\", \"type\": \"avg\", \"id\": \"61ca57f2-469d-11e7-af02-69e470af7417\"}, {\"field\": \"oracle.tablespace.space.total.bytes\", \"type\": \"avg\", \"id\": \"37c93d70-9bfc-11e9-baad-815beb8da1b5\"}, {\"script\": \"params.used / params.total\", \"variables\": [{\"field\": \"61ca57f2-469d-11e7-af02-69e470af7417\", \"id\": \"34e8d9d0-9bfc-11e9-baad-815beb8da1b5\", \"name\": \"used\"}, {\"field\": \"37c93d70-9bfc-11e9-baad-815beb8da1b5\", \"id\": \"467fdf40-9bfc-11e9-baad-815beb8da1b5\", \"name\": \"total\"}], \"denominator\": \"2\", \"numerator\": \"1\", \"field\": \"oracle.tablespace.space.total.bytes\", \"type\": \"math\", \"id\": \"0d474830-9bfc-11e9-baad-815beb8da1b5\"}], \"split_mode\": \"terms\", \"chart_type\": \"line\", \"terms_order_by\": \"61ca57f2-469d-11e7-af02-69e470af7417\", \"separate_axis\": 0, \"axis_position\": \"right\", \"formatter\": \"percent\", \"id\": \"61ca57f1-469d-11e7-af02-69e470af7417\", \"fill\": 0.5}], \"axis_formatter\": \"number\", \"interval\": \"auto\", \"id\": \"61ca57f0-469d-11e7-af02-69e470af7417\", \"show_legend\": 1, \"show_grid\": 1, \"axis_scale\": \"normal\", \"type\": \"top_n\", \"axis_position\": \"left\"}, \"aggs\": [], \"title\": \"Ratio of used space in Tablespaces [Metricbeat Oracle]\"}"
+            }, 
+            "id": "981779d0-9bfc-11e9-a61b-f742ed613c57", 
+            "migrationVersion": {
+                "visualization": "7.2.0"
+            }, 
+            "references": [], 
+            "type": "visualization", 
+            "updated_at": "2019-07-01T12:34:39.724Z", 
+            "version": "WzkzOSwxNF0="
+        }, 
+        {
+            "attributes": {
+                "description": "", 
+                "kibanaSavedObjectMeta": {
+                    "searchSourceJSON": "{\"filter\": [], \"query\": {\"query\": \"\", \"language\": \"kuery\"}}"
+                }, 
+                "title": "Ratio of used space in data files [Metricbeat Oracle]", 
+                "uiStateJSON": "{}", 
+                "version": 1, 
+                "visState": "{\"type\": \"metrics\", \"params\": {\"bar_color_rules\": [{\"id\": \"da9fa430-9bfc-11e9-baad-815beb8da1b5\"}], \"default_index_pattern\": \"metricbeat-*\", \"index_pattern\": \"\", \"time_field\": \"@timestamp\", \"series\": [{\"line_width\": 1, \"terms_field\": \"oracle.tablespace.data_file.name\", \"point_size\": 1, \"color\": \"rgba(204,204,204,1)\", \"stacked\": \"stacked\", \"label\": \"Ratio of used space in data files\", \"metrics\": [{\"field\": \"oracle.tablespace.data_file.size.max.bytes\", \"type\": \"avg\", \"id\": \"61ca57f2-469d-11e7-af02-69e470af7417\"}, {\"field\": \"oracle.tablespace.data_file.size.bytes\", \"type\": \"avg\", \"id\": \"c0f200a0-9bfc-11e9-baad-815beb8da1b5\"}, {\"variables\": [{\"field\": \"61ca57f2-469d-11e7-af02-69e470af7417\", \"id\": \"c9a63e50-9bfc-11e9-baad-815beb8da1b5\", \"name\": \"max\"}, {\"field\": \"c0f200a0-9bfc-11e9-baad-815beb8da1b5\", \"id\": \"cddc46e0-9bfc-11e9-baad-815beb8da1b5\", \"name\": \"used\"}], \"type\": \"math\", \"id\": \"c8289f00-9bfc-11e9-baad-815beb8da1b5\", \"script\": \"params.used / params.max\"}], \"split_mode\": \"terms\", \"chart_type\": \"line\", \"terms_order_by\": \"c0f200a0-9bfc-11e9-baad-815beb8da1b5\", \"separate_axis\": 0, \"axis_position\": \"right\", \"formatter\": \"percent\", \"id\": \"61ca57f1-469d-11e7-af02-69e470af7417\", \"fill\": 0.5}], \"axis_formatter\": \"number\", \"interval\": \"auto\", \"id\": \"61ca57f0-469d-11e7-af02-69e470af7417\", \"show_legend\": 1, \"show_grid\": 1, \"legend_position\": \"bottom\", \"axis_scale\": \"normal\", \"type\": \"top_n\", \"axis_position\": \"left\"}, \"aggs\": [], \"title\": \"Ratio of used space in data files [Metricbeat Oracle]\"}"
+            }, 
+            "id": "072de430-9bfd-11e9-a61b-f742ed613c57", 
+            "migrationVersion": {
+                "visualization": "7.2.0"
+            }, 
+            "references": [], 
+            "type": "visualization", 
+            "updated_at": "2019-07-01T12:37:59.842Z", 
+            "version": "Wzk0MSwxNF0="
+        }
+    ], 
+    "version": "8.0.0-SNAPSHOT"
+}

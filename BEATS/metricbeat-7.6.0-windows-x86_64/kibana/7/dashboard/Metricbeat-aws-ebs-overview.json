@@ -1,0 +1,290 @@
+{
+    "objects": [
+        {
+            "attributes": {
+                "description": "[Metricbeat AWS] Overview of EBS Metrics", 
+                "hits": 0, 
+                "kibanaSavedObjectMeta": {
+                    "searchSourceJSON": "{\"filter\": [], \"query\": {\"query\": \"\", \"language\": \"kuery\"}}"
+                }, 
+                "optionsJSON": "{\"useMargins\": true, \"hidePanelTitles\": false}", 
+                "panelsJSON": "[{\"gridData\": {\"i\": \"1\", \"h\": 10, \"y\": 10, \"w\": 24, \"x\": 24}, \"title\": \"Volume Write Ops\", \"embeddableConfig\": {}, \"version\": \"7.4.0\", \"panelRefName\": \"panel_0\", \"panelIndex\": \"1\"}, {\"gridData\": {\"i\": \"2\", \"h\": 10, \"y\": 10, \"w\": 24, \"x\": 0}, \"title\": \"Volume Read Ops\", \"embeddableConfig\": {}, \"version\": \"7.4.0\", \"panelRefName\": \"panel_1\", \"panelIndex\": \"2\"}, {\"gridData\": {\"i\": \"3\", \"h\": 10, \"y\": 20, \"w\": 24, \"x\": 24}, \"title\": \"Volume Write Bytes\", \"embeddableConfig\": {}, \"version\": \"7.4.0\", \"panelRefName\": \"panel_2\", \"panelIndex\": \"3\"}, {\"gridData\": {\"i\": \"4\", \"h\": 10, \"y\": 20, \"w\": 24, \"x\": 0}, \"title\": \"Volume Read Bytes\", \"embeddableConfig\": {}, \"version\": \"7.4.0\", \"panelRefName\": \"panel_3\", \"panelIndex\": \"4\"}, {\"gridData\": {\"i\": \"5\", \"h\": 10, \"y\": 0, \"w\": 19, \"x\": 8}, \"title\": \"Volume Queue Length\", \"embeddableConfig\": {}, \"version\": \"7.4.0\", \"panelRefName\": \"panel_4\", \"panelIndex\": \"5\"}, {\"gridData\": {\"i\": \"6\", \"h\": 10, \"y\": 30, \"w\": 24, \"x\": 24}, \"title\": \"Volume Total Write Time\", \"embeddableConfig\": {}, \"version\": \"7.4.0\", \"panelRefName\": \"panel_5\", \"panelIndex\": \"6\"}, {\"gridData\": {\"i\": \"7\", \"h\": 10, \"y\": 30, \"w\": 24, \"x\": 0}, \"title\": \"Volume Total Read Time\", \"embeddableConfig\": {}, \"version\": \"7.4.0\", \"panelRefName\": \"panel_6\", \"panelIndex\": \"7\"}, {\"gridData\": {\"i\": \"8\", \"h\": 10, \"y\": 0, \"w\": 21, \"x\": 27}, \"title\": \"Volume Idle Time\", \"embeddableConfig\": {}, \"version\": \"7.4.0\", \"panelRefName\": \"panel_7\", \"panelIndex\": \"8\"}, {\"gridData\": {\"i\": \"9\", \"h\": 5, \"y\": 5, \"w\": 8, \"x\": 0}, \"title\": \"EBS Volume ID Filter\", \"embeddableConfig\": {}, \"version\": \"7.4.0\", \"panelRefName\": \"panel_8\", \"panelIndex\": \"9\"}, {\"gridData\": {\"i\": \"10\", \"h\": 5, \"y\": 0, \"w\": 8, \"x\": 0}, \"panelRefName\": \"panel_9\", \"version\": \"7.4.0\", \"panelIndex\": \"10\", \"embeddableConfig\": {}}]", 
+                "timeRestore": false, 
+                "title": "[Metricbeat AWS] EBS Overview", 
+                "version": 1
+            }, 
+            "id": "44ce4680-b7ba-11e9-8349-f15f850c5cd0", 
+            "migrationVersion": {
+                "dashboard": "7.3.0"
+            }, 
+            "references": [
+                {
+                    "id": "f6831f30-b7b6-11e9-8349-f15f850c5cd0", 
+                    "name": "panel_0", 
+                    "type": "visualization"
+                }, 
+                {
+                    "id": "bb3a6cd0-b7b6-11e9-8349-f15f850c5cd0", 
+                    "name": "panel_1", 
+                    "type": "visualization"
+                }, 
+                {
+                    "id": "c0e32d50-b7b8-11e9-8349-f15f850c5cd0", 
+                    "name": "panel_2", 
+                    "type": "visualization"
+                }, 
+                {
+                    "id": "b00c4390-b7b8-11e9-8349-f15f850c5cd0", 
+                    "name": "panel_3", 
+                    "type": "visualization"
+                }, 
+                {
+                    "id": "fe0581b0-b7b8-11e9-8349-f15f850c5cd0", 
+                    "name": "panel_4", 
+                    "type": "visualization"
+                }, 
+                {
+                    "id": "25384bf0-b7b9-11e9-8349-f15f850c5cd0", 
+                    "name": "panel_5", 
+                    "type": "visualization"
+                }, 
+                {
+                    "id": "12eff7e0-b7b9-11e9-8349-f15f850c5cd0", 
+                    "name": "panel_6", 
+                    "type": "visualization"
+                }, 
+                {
+                    "id": "67f43080-b7b9-11e9-8349-f15f850c5cd0", 
+                    "name": "panel_7", 
+                    "type": "visualization"
+                }, 
+                {
+                    "id": "d045d120-b7b9-11e9-8349-f15f850c5cd0", 
+                    "name": "panel_8", 
+                    "type": "visualization"
+                }, 
+                {
+                    "id": "b5308940-7347-11e9-816b-07687310a99a", 
+                    "name": "panel_9", 
+                    "type": "visualization"
+                }
+            ], 
+            "type": "dashboard", 
+            "updated_at": "2019-09-12T16:35:04.005Z", 
+            "version": "WzYwMDMsN10="
+        }, 
+        {
+            "attributes": {
+                "description": "", 
+                "kibanaSavedObjectMeta": {
+                    "searchSourceJSON": "{\"filter\": [], \"query\": {\"query\": \"\", \"language\": \"kuery\"}}"
+                }, 
+                "title": "EBS Volume Write Ops [Metricbeat AWS]", 
+                "uiStateJSON": "{}", 
+                "version": 1, 
+                "visState": "{\"type\": \"metrics\", \"params\": {\"default_index_pattern\": \"metricbeat-*\", \"index_pattern\": \"\", \"default_timefield\": \"@timestamp\", \"series\": [{\"line_width\": 1, \"terms_field\": \"aws.dimensions.VolumeId\", \"point_size\": \"5\", \"color\": \"#68BC00\", \"stacked\": \"none\", \"label\": \"Number of Write Operation\", \"metrics\": [{\"field\": \"aws.ebs.metrics.VolumeWriteOps.avg\", \"type\": \"avg\", \"id\": \"61ca57f2-469d-11e7-af02-69e470af7417\"}], \"split_mode\": \"terms\", \"chart_type\": \"line\", \"terms_order_by\": \"61ca57f2-469d-11e7-af02-69e470af7417\", \"separate_axis\": 0, \"axis_position\": \"right\", \"formatter\": \"number\", \"id\": \"61ca57f1-469d-11e7-af02-69e470af7417\", \"split_color_mode\": \"rainbow\", \"fill\": \"0\"}], \"axis_formatter\": \"number\", \"interval\": \"5m\", \"show_legend\": 1, \"isModelInvalid\": false, \"id\": \"61ca57f0-469d-11e7-af02-69e470af7417\", \"time_field\": \"\", \"axis_min\": \"0\", \"show_grid\": 1, \"axis_scale\": \"normal\", \"type\": \"timeseries\", \"axis_position\": \"left\"}, \"aggs\": [], \"title\": \"EBS Volume Write Ops [Metricbeat AWS]\"}"
+            }, 
+            "id": "f6831f30-b7b6-11e9-8349-f15f850c5cd0", 
+            "migrationVersion": {
+                "visualization": "7.3.0"
+            }, 
+            "references": [], 
+            "type": "visualization", 
+            "updated_at": "2019-09-12T16:31:45.681Z", 
+            "version": "WzU5ODMsN10="
+        }, 
+        {
+            "attributes": {
+                "description": "", 
+                "kibanaSavedObjectMeta": {
+                    "searchSourceJSON": "{\"filter\": [], \"query\": {\"query\": \"\", \"language\": \"kuery\"}}"
+                }, 
+                "title": "EBS Volume Read Ops [Metricbeat AWS]", 
+                "uiStateJSON": "{}", 
+                "version": 1, 
+                "visState": "{\"type\": \"metrics\", \"params\": {\"default_index_pattern\": \"metricbeat-*\", \"index_pattern\": \"\", \"default_timefield\": \"@timestamp\", \"series\": [{\"line_width\": 1, \"terms_field\": \"aws.dimensions.VolumeId\", \"point_size\": \"5\", \"color\": \"#68BC00\", \"stacked\": \"none\", \"label\": \"Number of Read Operation\", \"metrics\": [{\"field\": \"aws.ebs.metrics.VolumeReadOps.avg\", \"type\": \"avg\", \"id\": \"61ca57f2-469d-11e7-af02-69e470af7417\"}], \"split_mode\": \"terms\", \"chart_type\": \"line\", \"terms_order_by\": \"61ca57f2-469d-11e7-af02-69e470af7417\", \"separate_axis\": 0, \"axis_position\": \"right\", \"formatter\": \"number\", \"id\": \"61ca57f1-469d-11e7-af02-69e470af7417\", \"split_color_mode\": \"rainbow\", \"fill\": \"0\"}], \"axis_formatter\": \"number\", \"interval\": \"5m\", \"show_legend\": 1, \"isModelInvalid\": false, \"id\": \"61ca57f0-469d-11e7-af02-69e470af7417\", \"time_field\": \"\", \"axis_min\": \"0\", \"show_grid\": 1, \"axis_scale\": \"normal\", \"type\": \"timeseries\", \"axis_position\": \"left\"}, \"aggs\": [], \"title\": \"EBS Volume Read Ops [Metricbeat AWS]\"}"
+            }, 
+            "id": "bb3a6cd0-b7b6-11e9-8349-f15f850c5cd0", 
+            "migrationVersion": {
+                "visualization": "7.3.0"
+            }, 
+            "references": [], 
+            "type": "visualization", 
+            "updated_at": "2019-09-12T16:31:31.261Z", 
+            "version": "WzU5ODEsN10="
+        }, 
+        {
+            "attributes": {
+                "description": "", 
+                "kibanaSavedObjectMeta": {
+                    "searchSourceJSON": "{\"filter\": [], \"query\": {\"query\": \"\", \"language\": \"kuery\"}}"
+                }, 
+                "title": "EBS Volume Write Bytes [Metricbeat AWS]", 
+                "uiStateJSON": "{}", 
+                "version": 1, 
+                "visState": "{\"type\": \"metrics\", \"params\": {\"default_index_pattern\": \"metricbeat-*\", \"index_pattern\": \"\", \"default_timefield\": \"@timestamp\", \"series\": [{\"line_width\": 1, \"terms_field\": \"aws.dimensions.VolumeId\", \"point_size\": \"5\", \"color\": \"#68BC00\", \"stacked\": \"none\", \"label\": \"Volume Write Bytes\", \"metrics\": [{\"field\": \"aws.ebs.metrics.VolumeWriteBytes.avg\", \"type\": \"avg\", \"id\": \"61ca57f2-469d-11e7-af02-69e470af7417\"}], \"split_mode\": \"terms\", \"chart_type\": \"line\", \"terms_order_by\": \"61ca57f2-469d-11e7-af02-69e470af7417\", \"separate_axis\": 0, \"axis_position\": \"right\", \"formatter\": \"number\", \"id\": \"61ca57f1-469d-11e7-af02-69e470af7417\", \"split_color_mode\": \"rainbow\", \"fill\": \"0\"}], \"axis_formatter\": \"number\", \"interval\": \"5m\", \"show_legend\": 1, \"isModelInvalid\": false, \"id\": \"61ca57f0-469d-11e7-af02-69e470af7417\", \"time_field\": \"\", \"axis_min\": \"0\", \"show_grid\": 1, \"axis_scale\": \"normal\", \"type\": \"timeseries\", \"axis_position\": \"left\"}, \"aggs\": [], \"title\": \"EBS Volume Write Bytes [Metricbeat AWS]\"}"
+            }, 
+            "id": "c0e32d50-b7b8-11e9-8349-f15f850c5cd0", 
+            "migrationVersion": {
+                "visualization": "7.3.0"
+            }, 
+            "references": [], 
+            "type": "visualization", 
+            "updated_at": "2019-09-12T16:32:46.176Z", 
+            "version": "WzU5OTAsN10="
+        }, 
+        {
+            "attributes": {
+                "description": "", 
+                "kibanaSavedObjectMeta": {
+                    "searchSourceJSON": "{\"filter\": [], \"query\": {\"query\": \"\", \"language\": \"kuery\"}}"
+                }, 
+                "title": "EBS Volume Read Bytes [Metricbeat AWS]", 
+                "uiStateJSON": "{}", 
+                "version": 1, 
+                "visState": "{\"type\": \"metrics\", \"params\": {\"default_index_pattern\": \"metricbeat-*\", \"index_pattern\": \"\", \"default_timefield\": \"@timestamp\", \"series\": [{\"line_width\": 1, \"terms_field\": \"aws.dimensions.VolumeId\", \"point_size\": \"5\", \"color\": \"#68BC00\", \"stacked\": \"none\", \"label\": \"Volume Read Bytes\", \"metrics\": [{\"field\": \"aws.ebs.metrics.VolumeReadBytes.avg\", \"type\": \"avg\", \"id\": \"61ca57f2-469d-11e7-af02-69e470af7417\"}], \"split_mode\": \"terms\", \"chart_type\": \"line\", \"terms_order_by\": \"61ca57f2-469d-11e7-af02-69e470af7417\", \"separate_axis\": 0, \"axis_position\": \"right\", \"formatter\": \"number\", \"id\": \"61ca57f1-469d-11e7-af02-69e470af7417\", \"split_color_mode\": \"rainbow\", \"fill\": \"0\"}], \"axis_formatter\": \"number\", \"interval\": \"5m\", \"show_legend\": 1, \"isModelInvalid\": false, \"id\": \"61ca57f0-469d-11e7-af02-69e470af7417\", \"time_field\": \"\", \"axis_min\": \"0\", \"show_grid\": 1, \"axis_scale\": \"normal\", \"type\": \"timeseries\", \"axis_position\": \"left\"}, \"aggs\": [], \"title\": \"EBS Volume Read Bytes [Metricbeat AWS]\"}"
+            }, 
+            "id": "b00c4390-b7b8-11e9-8349-f15f850c5cd0", 
+            "migrationVersion": {
+                "visualization": "7.3.0"
+            }, 
+            "references": [], 
+            "type": "visualization", 
+            "updated_at": "2019-09-12T16:32:02.907Z", 
+            "version": "WzU5ODUsN10="
+        }, 
+        {
+            "attributes": {
+                "description": "", 
+                "kibanaSavedObjectMeta": {
+                    "searchSourceJSON": "{\"filter\": [], \"query\": {\"query\": \"\", \"language\": \"kuery\"}}"
+                }, 
+                "title": "EBS Volume Queue Length [Metricbeat AWS]", 
+                "uiStateJSON": "{}", 
+                "version": 1, 
+                "visState": "{\"type\": \"metrics\", \"params\": {\"default_index_pattern\": \"metricbeat-*\", \"index_pattern\": \"\", \"default_timefield\": \"@timestamp\", \"series\": [{\"line_width\": 1, \"terms_field\": \"aws.dimensions.VolumeId\", \"point_size\": \"5\", \"color\": \"#68BC00\", \"stacked\": \"none\", \"label\": \"Volume Queue Length\", \"metrics\": [{\"field\": \"aws.ebs.metrics.VolumeQueueLength.avg\", \"type\": \"avg\", \"id\": \"61ca57f2-469d-11e7-af02-69e470af7417\"}], \"split_mode\": \"terms\", \"chart_type\": \"line\", \"terms_order_by\": \"61ca57f2-469d-11e7-af02-69e470af7417\", \"separate_axis\": 0, \"axis_position\": \"right\", \"formatter\": \"number\", \"id\": \"61ca57f1-469d-11e7-af02-69e470af7417\", \"split_color_mode\": \"rainbow\", \"fill\": \"0\"}], \"axis_formatter\": \"number\", \"interval\": \"5m\", \"show_legend\": 1, \"isModelInvalid\": false, \"id\": \"61ca57f0-469d-11e7-af02-69e470af7417\", \"time_field\": \"\", \"axis_min\": \"0\", \"show_grid\": 1, \"axis_scale\": \"normal\", \"type\": \"timeseries\", \"axis_position\": \"left\"}, \"aggs\": [], \"title\": \"EBS Volume Queue Length [Metricbeat AWS]\"}"
+            }, 
+            "id": "fe0581b0-b7b8-11e9-8349-f15f850c5cd0", 
+            "migrationVersion": {
+                "visualization": "7.3.0"
+            }, 
+            "references": [], 
+            "type": "visualization", 
+            "updated_at": "2019-09-12T16:30:59.507Z", 
+            "version": "WzU5NzgsN10="
+        }, 
+        {
+            "attributes": {
+                "description": "", 
+                "kibanaSavedObjectMeta": {
+                    "searchSourceJSON": "{\"filter\": [], \"query\": {\"query\": \"\", \"language\": \"kuery\"}}"
+                }, 
+                "title": "EBS Volume Total Write Time [Metricbeat AWS]", 
+                "uiStateJSON": "{}", 
+                "version": 1, 
+                "visState": "{\"type\": \"metrics\", \"params\": {\"default_index_pattern\": \"metricbeat-*\", \"index_pattern\": \"\", \"default_timefield\": \"@timestamp\", \"series\": [{\"line_width\": 1, \"terms_field\": \"aws.dimensions.VolumeId\", \"point_size\": \"5\", \"color\": \"#68BC00\", \"stacked\": \"none\", \"label\": \"Volume Total Write Time\", \"metrics\": [{\"field\": \"aws.ebs.metrics.VolumeTotalWriteTime.sum\", \"type\": \"avg\", \"id\": \"61ca57f2-469d-11e7-af02-69e470af7417\"}], \"split_mode\": \"terms\", \"chart_type\": \"line\", \"terms_order_by\": \"61ca57f2-469d-11e7-af02-69e470af7417\", \"separate_axis\": 0, \"axis_position\": \"right\", \"formatter\": \"s,s,3\", \"id\": \"61ca57f1-469d-11e7-af02-69e470af7417\", \"split_color_mode\": \"rainbow\", \"fill\": \"0\"}], \"axis_formatter\": \"number\", \"interval\": \"5m\", \"show_legend\": 1, \"isModelInvalid\": false, \"id\": \"61ca57f0-469d-11e7-af02-69e470af7417\", \"time_field\": \"\", \"axis_min\": \"0\", \"show_grid\": 1, \"axis_scale\": \"normal\", \"type\": \"timeseries\", \"axis_position\": \"left\"}, \"aggs\": [], \"title\": \"EBS Volume Total Write Time [Metricbeat AWS]\"}"
+            }, 
+            "id": "25384bf0-b7b9-11e9-8349-f15f850c5cd0", 
+            "migrationVersion": {
+                "visualization": "7.3.0"
+            }, 
+            "references": [], 
+            "type": "visualization", 
+            "updated_at": "2019-09-12T16:32:19.881Z", 
+            "version": "WzU5ODcsN10="
+        }, 
+        {
+            "attributes": {
+                "description": "", 
+                "kibanaSavedObjectMeta": {
+                    "searchSourceJSON": "{\"filter\": [], \"query\": {\"query\": \"\", \"language\": \"kuery\"}}"
+                }, 
+                "title": "EBS Volume Total Read Time [Metricbeat AWS]", 
+                "uiStateJSON": "{}", 
+                "version": 1, 
+                "visState": "{\"type\": \"metrics\", \"params\": {\"default_index_pattern\": \"metricbeat-*\", \"index_pattern\": \"\", \"default_timefield\": \"@timestamp\", \"series\": [{\"line_width\": 1, \"terms_field\": \"aws.dimensions.VolumeId\", \"point_size\": \"5\", \"color\": \"#68BC00\", \"stacked\": \"none\", \"label\": \"Volume Total Read Time\", \"metrics\": [{\"field\": \"aws.ebs.metrics.VolumeTotalReadTime.sum\", \"type\": \"avg\", \"id\": \"61ca57f2-469d-11e7-af02-69e470af7417\"}], \"split_mode\": \"terms\", \"chart_type\": \"line\", \"terms_order_by\": \"61ca57f2-469d-11e7-af02-69e470af7417\", \"separate_axis\": 0, \"axis_position\": \"right\", \"formatter\": \"s,s,3\", \"id\": \"61ca57f1-469d-11e7-af02-69e470af7417\", \"split_color_mode\": \"rainbow\", \"fill\": \"0\"}], \"axis_formatter\": \"number\", \"interval\": \"5m\", \"show_legend\": 1, \"isModelInvalid\": false, \"id\": \"61ca57f0-469d-11e7-af02-69e470af7417\", \"time_field\": \"\", \"axis_min\": \"0\", \"show_grid\": 1, \"axis_scale\": \"normal\", \"type\": \"timeseries\", \"axis_position\": \"left\"}, \"aggs\": [], \"title\": \"EBS Volume Total Read Time [Metricbeat AWS]\"}"
+            }, 
+            "id": "12eff7e0-b7b9-11e9-8349-f15f850c5cd0", 
+            "migrationVersion": {
+                "visualization": "7.3.0"
+            }, 
+            "references": [], 
+            "type": "visualization", 
+            "updated_at": "2019-09-12T16:33:13.538Z", 
+            "version": "WzU5OTMsN10="
+        }, 
+        {
+            "attributes": {
+                "description": "", 
+                "kibanaSavedObjectMeta": {
+                    "searchSourceJSON": "{\"filter\": [], \"query\": {\"query\": \"\", \"language\": \"kuery\"}}"
+                }, 
+                "title": "EBS Volume Idle Time [Metricbeat AWS]", 
+                "uiStateJSON": "{}", 
+                "version": 1, 
+                "visState": "{\"type\": \"metrics\", \"params\": {\"default_index_pattern\": \"metricbeat-*\", \"index_pattern\": \"\", \"default_timefield\": \"@timestamp\", \"series\": [{\"line_width\": 1, \"terms_field\": \"aws.dimensions.VolumeId\", \"metrics\": [{\"field\": \"aws.ebs.metrics.VolumeIdleTime.sum\", \"type\": \"avg\", \"id\": \"61ca57f2-469d-11e7-af02-69e470af7417\"}], \"color\": \"#68BC00\", \"stacked\": \"none\", \"label\": \"Volume Idle Time\", \"hide_in_legend\": 0, \"axis_min\": \"0\", \"separate_axis\": 0, \"chart_type\": \"line\", \"terms_order_by\": \"61ca57f2-469d-11e7-af02-69e470af7417\", \"point_size\": \"5\", \"axis_position\": \"right\", \"formatter\": \"s,s,1\", \"split_mode\": \"terms\", \"id\": \"61ca57f1-469d-11e7-af02-69e470af7417\", \"split_color_mode\": \"rainbow\", \"fill\": \"0\"}], \"axis_formatter\": \"number\", \"interval\": \"5m\", \"show_legend\": 1, \"id\": \"61ca57f0-469d-11e7-af02-69e470af7417\", \"time_field\": \"\", \"axis_min\": \"0\", \"show_grid\": 1, \"axis_scale\": \"normal\", \"type\": \"timeseries\", \"axis_position\": \"left\"}, \"aggs\": [], \"title\": \"EBS Volume Idle Time [Metricbeat AWS]\"}"
+            }, 
+            "id": "67f43080-b7b9-11e9-8349-f15f850c5cd0", 
+            "migrationVersion": {
+                "visualization": "7.3.0"
+            }, 
+            "references": [], 
+            "type": "visualization", 
+            "updated_at": "2019-09-12T16:31:19.709Z", 
+            "version": "WzU5ODAsN10="
+        }, 
+        {
+            "attributes": {
+                "description": "", 
+                "kibanaSavedObjectMeta": {
+                    "searchSourceJSON": "{\"filter\": [], \"query\": {\"query\": \"\", \"language\": \"kuery\"}}"
+                }, 
+                "title": "EBS Volume ID Filter [Metricbeat AWS]", 
+                "uiStateJSON": "{}", 
+                "version": 1, 
+                "visState": "{\"type\": \"input_control_vis\", \"params\": {\"pinFilters\": false, \"useTimeFilter\": true, \"updateFiltersOnChange\": true, \"controls\": [{\"parent\": \"\", \"indexPatternRefName\": \"control_0_index_pattern\", \"label\": \"volume id\", \"fieldName\": \"aws.dimensions.VolumeId\", \"id\": \"1565034367477\", \"type\": \"list\", \"options\": {\"type\": \"terms\", \"size\": 5, \"multiselect\": true, \"dynamicOptions\": true, \"order\": \"desc\"}}]}, \"aggs\": [], \"title\": \"EBS Volume ID Filter [Metricbeat AWS]\"}"
+            }, 
+            "id": "d045d120-b7b9-11e9-8349-f15f850c5cd0", 
+            "migrationVersion": {
+                "visualization": "7.3.0"
+            }, 
+            "references": [
+                {
+                    "id": "metricbeat-*", 
+                    "name": "control_0_index_pattern", 
+                    "type": "index-pattern"
+                }
+            ], 
+            "type": "visualization", 
+            "updated_at": "2019-09-12T16:29:31.115Z", 
+            "version": "WzU2MTIsN10="
+        }, 
+        {
+            "attributes": {
+                "description": "", 
+                "kibanaSavedObjectMeta": {
+                    "searchSourceJSON": "{\"filter\": [], \"query\": {\"query\": \"\", \"language\": \"kuery\"}}"
+                }, 
+                "title": "Region Filter [Metricbeat AWS]", 
+                "uiStateJSON": "{}", 
+                "version": 1, 
+                "visState": "{\"type\": \"input_control_vis\", \"params\": {\"pinFilters\": false, \"useTimeFilter\": false, \"updateFiltersOnChange\": true, \"controls\": [{\"parent\": \"\", \"indexPatternRefName\": \"control_0_index_pattern\", \"label\": \"region\", \"fieldName\": \"cloud.region\", \"id\": \"1549397251041\", \"type\": \"list\", \"options\": {\"type\": \"terms\", \"size\": 5, \"multiselect\": true, \"dynamicOptions\": true, \"order\": \"desc\"}}]}, \"aggs\": [], \"title\": \"AWS Region Filter\"}"
+            }, 
+            "id": "b5308940-7347-11e9-816b-07687310a99a", 
+            "migrationVersion": {
+                "visualization": "7.3.0"
+            }, 
+            "references": [
+                {
+                    "id": "metricbeat-*", 
+                    "name": "control_0_index_pattern", 
+                    "type": "index-pattern"
+                }
+            ], 
+            "type": "visualization", 
+            "updated_at": "2019-09-12T16:29:35.238Z", 
+            "version": "WzU2NTQsN10="
+        }
+    ], 
+    "version": "7.4.0"
+}
